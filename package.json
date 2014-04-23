@@ -1,6 +1,6 @@
 {
   "name": "peer-dependency-cleaner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple tool to clean up the mess that npm link and peerDependencies creates (https://github.com/npm/npm/issues/5080). Takes the name of a module as an argument, and will then walk down your node_modules tree and delete any instances of that module except the top one. Think of it as a very violent and despotic dedupe. ",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "peerDependencies",
     "clean"
   ],
- "bin": {
+  "bin": {
     "cleanpeerdeps": "index.js"
   },
   "author": "Mattias Petter Johansson <mpj@mpj.me>",
