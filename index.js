@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var exec = require('child_process').exec
 
 var firstArgument = process.argv[2];
