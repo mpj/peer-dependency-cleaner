@@ -15,6 +15,9 @@
     "peerDependencies",
     "clean"
   ],
+ "bin": {
+    "cleanpeerdeps": "index.js"
+  },
   "author": "Mattias Petter Johansson <mpj@mpj.me>",
   "license": "MIT",
   "bugs": {
